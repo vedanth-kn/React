@@ -2,6 +2,7 @@
 // import Parent from "./Components/Perent.jsx";
 import DataTable from "./Components/DataTable";
 import UseEffectHook from "./Components/UseEffectHook";
+import "./styles/index.scss"
 
 function App() {
 //   const obj1 = {
@@ -38,8 +39,8 @@ function App() {
       <Simple message={obj2}/>
       <Simple message={obj3}/> */}
       {/* <Parent/> */}
-      <DataTable data={table1}/><br></br>
-      <DataTable data={table}/>
+      <DataTable c="table1" data={table1}/><br></br>
+      <DataTable data={table} c="table2"/>
       <UseEffectHook/>
 
     </div>

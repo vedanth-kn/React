@@ -1,7 +1,7 @@
 const DataTable = (props) => {
-    const { data } = props
+    const { data, c } = props
     return (
-        <table>
+        <table className={c}>
             <thead>
                 <tr>
                     <th>Name</th>

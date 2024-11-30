@@ -6,10 +6,12 @@
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
+    "lodash": "^4.17.21",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-scripts": "5.0.1",
     "saas": "^1.0.0",
+    "uuid": "^11.0.3",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
@@ -37,6 +39,12 @@
     ]
   },
   "devDependencies": {
-    "cypress": "^13.16.0"
+    "css-loader": "^7.1.2",
+    "cypress": "^13.16.0",
+    "postcss-loader": "^8.1.1",
+    "resolve-url-loader": "^5.0.0",
+    "sass": "^1.81.0",
+    "sass-loader": "^16.0.3",
+    "style-loader": "^4.0.0"
   }
 }
