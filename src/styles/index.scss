@@ -1,4 +1,13 @@
-@import "./variable.scss";
-@import "./mixins.scss";
-@import "./Components/DataTable.scss";
-@import "./Components/table.scss";
+* {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+@import "./variables";
+@import "./mixins";
+@import "./Components/Header";
+@import "./Components/Content"
